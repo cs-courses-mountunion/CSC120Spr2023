@@ -3,9 +3,9 @@ Bagwell, Jeff # 449 # .297 # 2314 # 1529 # 202
 Banks, Ernie # 512 # .274 # 2583 # 1636 # 50
 Beltre, Adrian # 477 # .286 # 3166 # 1707 # 121
 Bonds, Barry # 762 # .298 # 2935 # 1996 # 514
-Cabrera, Miguel # 502 # .310 # 2987 # 1804 # 39
+Cabrera, Miguel # 507 # .308 # 3088 # 1847 # 40
 Canseco, Jose # 462 # .266 # 1877 # 1407 # 200
-Cruz, Nelson # 449 # .277 # 1913 # 1238 # 79
+Cruz, Nelson # 459 # .274 # 2018 # 1302 # 83
 Dawson, Andre # 438 # .279 # 2774 # 1591 # 314
 Delgado, Carlos # 473 # .280 # 2038 # 1512 # 14
 Dunn, Adam # 462 # .237 # 1631 # 1168 # 63
@@ -39,7 +39,7 @@ Ortiz, David # 541 # .286 # 2472 # 1768 # 17
 Ott, Mel # 511 # .304 # 2876 # 1860 # 890
 Palmeiro, Rafael # 569 # .288 # 3020 # 1835 # 97
 Piazza, Mike # 427 # .308 # 2127 # 1335 # 17
-Pujols, Albert # 679 # .297 # 3301 # 2150 # 116
+Pujols, Albert # 703 # .296 # 3384 # 2218 # 117
 Ramirez, Manny # 555 # .312 # 2574 # 1831 # 38
 Ripken Jr., Cal # 431 # .276 # 3184 # 1695 # 36
 Robinson, Frank # 586 # .294 # 2943 # 1812 # 204

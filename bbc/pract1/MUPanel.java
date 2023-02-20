@@ -1,42 +1,57 @@
+/* CSC 120
+ * Practicum # 1
+ *
+ * Samantha Student
+ *
+ */
 import java.awt.*;
 import javax.swing.*;
 
 public class MUPanel extends JPanel {
 
-
     
+	
+
+    // constructor method
     public MUPanel() {
         setLayout(null);
         setPreferredSize(new Dimension(800, 600));
-        setName("CSC 120 Practicum # 1");
+        setName("Practicum # 1 authored by Samantha Student");
+        setUp();
         setBackground(Color.WHITE);
-        
-		
-		
-		
-   
-    } // end of MUPanel constructor
+
     
+	
+	
+	
+	
+	
+	
+    } // end of constructor
+    
+	
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g); // This line must be first in this method!
 
-        
 
 
 
-    } // end of method paintComponent
+
+
+	
+    } // end of paintComponent()
     
-    // Add other methods here:
     
     
-
-
-
+       
+    
+    
+    
     /***********************************************
      * Do NOT change or delete anything below here!
      ***********************************************/
-    public void frame() {
+    public void setUp() {
         for (Component c: getComponents())
             c.setSize(c.getPreferredSize());
         JFrame f = new JFrame(getName());
@@ -46,6 +61,6 @@ public class MUPanel extends JPanel {
         f.setVisible(true);    
     }
 
-    public static void main(String args[]){new MUPanel().frame();}
+    public static void main(String args[]){new MUPanel();}
 
 } // end of class MUPanel

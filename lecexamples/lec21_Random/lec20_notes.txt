@@ -1,6 +1,6 @@
 To obtain unpredictable values, use an object of the Random class
 
-    such an object has methods that return an unpredictable value of a certain data type
+    such an object has methods that return unpredictable values of certain data types
 
 
 (1) Declare a Random object:
@@ -19,6 +19,8 @@ To obtain unpredictable values, use an object of the Random class
 
         Integer x = randGen.nextInt( n );  // an unpredictable value in the range [0, n-1]
                     // here, n is the number of values in the range
+
+        Integer x = randGen.nextInt( a, b );  // an unpredictable value in the range [a, b-1]
 
         Double d  = randGen.nextDouble();  // an unpredictable value in the range [0, 1)
 

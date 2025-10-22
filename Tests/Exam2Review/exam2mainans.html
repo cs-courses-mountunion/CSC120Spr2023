@@ -177,6 +177,88 @@
 </pre>
         </font> </li>
 		
+    <li> Run the following code fragment with each of these values for
+         the object <em>score</em>:  92, 83, 55, 78, 80.  Notice the
+         difference in output produced by the program, and be able to
+         explain why the difference occurs.  <strong>Hint: THIS IS A 
+         VERY GOOD TEST QUESTION!!!</strong>
+<pre>
+         int score = 92;  // change to 83, then to 55, 78 and 80, running the code each time
+
+         System.out.println("------ if/else");
+         if (score >= 90) {
+             System.out.println("Grade = A");
+         }
+         else if (score >= 80) {
+             System.out.println("Grade = B");
+         }
+         else if (score >= 70) {
+             System.out.println("Grade = C");
+         }
+         else {
+             System.out.println("Grade = D or lower");
+         }
+
+         System.out.println("------ if (no else)");
+         if (score >= 90) {
+             System.out.println("Grade = A");
+         }
+         if (score >= 80) {
+             System.out.println("Grade = B");
+         }
+         if (score >= 70) {
+             System.out.println("Grade = C");
+         }
+         else {
+             System.out.println("Grade = D or lower");
+         }
+</pre>
+        <font color="blue">
+<pre>
+    When score is 92, output is:
+
+		------ if/else
+		Grade = A
+		------ if (no else)
+		Grade = A
+		Grade = B
+		Grade = C
+		
+    This occurs because with the "else if" version, once a Boolean test is true, we don't do any of the other if tests; but in the "if only" version, each test is executed, and if more than one of them is true, more than one grade is displayed.
+		
+    When score is 83, output is:
+
+		------ if/else
+		Grade = B
+		------ if (no else)
+		Grade = B
+		Grade = C
+		
+    When score is 55, output is:
+
+		------ if/else
+		Grade = D or lower
+		------ if (no else)
+		Grade = D or lower
+		
+    When score is 78, output is:
+
+		------ if/else
+		Grade = C
+		------ if (no else)
+		Grade = C
+		
+    When score is 80, output is:
+
+		------ if/else
+		Grade = B
+		------ if (no else)
+		Grade = B
+		Grade = C
+		
+</pre>
+        </font> </li>
+	
     </ol>
   </body>
 </html>
